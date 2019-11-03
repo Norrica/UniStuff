@@ -1,0 +1,20 @@
+﻿Сборка начата 05.07.2017 00:26:30.
+     1>Проект "D:\AAA\Программы\Практика\Дашина 13-я\Дашина 13-я\Дашина 13-я.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\AAA\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Source.c
+         Source.c
+     1>d:\aaa\программы\практика\дашина 13-я\дашина 13-я\source.c(27): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\aaa\программы\практика\дашина 13-я\дашина 13-я\source.c(54): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\aaa\программы\практика\дашина 13-я\дашина 13-я\source.c(71): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\aaa\программы\практика\дашина 13-я\дашина 13-я\source.c(99): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\aaa\программы\практика\дашина 13-я\дашина 13-я\source.c(134): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+     1>d:\aaa\программы\практика\дашина 13-я\дашина 13-я\source.c(146): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+     1>d:\aaa\программы\практика\дашина 13-я\дашина 13-я\source.c(130): warning C4101: buff: неиспользованная локальная переменная
+       Link:
+         D:\AAA\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AAA\Программы\Практика\Дашина 13-я\Debug\Дашина 13-я.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\AAA\Программы\Практика\Дашина 13-я\Debug\Дашина 13-я.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AAA\Программы\Практика\Дашина 13-я\Debug\Дашина 13-я.lib" /MACHINE:X86 Debug\Source.obj
+         Дашина 13-я.vcxproj -> D:\AAA\Программы\Практика\Дашина 13-я\Debug\Дашина 13-я.exe
+     1>Сборка проекта "D:\AAA\Программы\Практика\Дашина 13-я\Дашина 13-я\Дашина 13-я.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.25

@@ -1,0 +1,20 @@
+﻿Сборка начата 27.04.2018 18:34:51.
+     1>Проект "D:\AAA\Программы\C\Практика\FoolProtect\FoolProtect\FoolProtect.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\AAA\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt FoolProtectCycled.c
+         FoolProtectCycled.c
+     1>d:\aaa\программы\c\практика\foolprotect\foolprotect\foolprotectcycled.c(21): warning C4477: 'scanf_s' : format string '%9g' requires an argument of type 'float *', but variadic argument 1 has type 'double *'
+         d:\aaa\программы\c\практика\foolprotect\foolprotect\foolprotectcycled.c(21): note: consider using '%lg' in the format string
+     1>d:\aaa\программы\c\практика\foolprotect\foolprotect\foolprotectcycled.c(39): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+         d:\aaa\программы\c\практика\foolprotect\foolprotect\foolprotectcycled.c(39): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+         d:\aaa\программы\c\практика\foolprotect\foolprotect\foolprotectcycled.c(39): note: the missing variadic argument 2 is required by format string '%1c'
+         d:\aaa\программы\c\практика\foolprotect\foolprotect\foolprotectcycled.c(39): note: this argument is used as a buffer size
+     1>d:\aaa\программы\c\практика\foolprotect\foolprotect\foolprotectcycled.c(51): warning C4101: b: неиспользованная локальная переменная
+       Link:
+         D:\AAA\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AAA\Программы\C\Практика\FoolProtect\Debug\FoolProtect.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\AAA\Программы\C\Практика\FoolProtect\Debug\FoolProtect.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AAA\Программы\C\Практика\FoolProtect\Debug\FoolProtect.lib" /MACHINE:X86 Debug\FoolProtectCycled.obj
+         FoolProtect.vcxproj -> D:\AAA\Программы\C\Практика\FoolProtect\Debug\FoolProtect.exe
+     1>Сборка проекта "D:\AAA\Программы\C\Практика\FoolProtect\FoolProtect\FoolProtect.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.33

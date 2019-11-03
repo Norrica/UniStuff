@@ -1,0 +1,15 @@
+﻿Сборка начата 06.07.2017 00:17:55.
+     1>Проект "D:\AAA\Программы\Практика\Задача 13\Задача 13\Задача 13.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\AAA\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt "Задача 13.c"
+         Задача 13.c
+     1>d:\aaa\программы\практика\задача 13\задача 13\задача 13.c(17): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\aaa\программы\практика\задача 13\задача 13\задача 13.c(22): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         D:\AAA\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AAA\Программы\Практика\Задача 13\Debug\Задача 13.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\AAA\Программы\Практика\Задача 13\Debug\Задача 13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AAA\Программы\Практика\Задача 13\Debug\Задача 13.lib" /MACHINE:X86 "Debug\Задача 13.obj"
+         Задача 13.vcxproj -> D:\AAA\Программы\Практика\Задача 13\Debug\Задача 13.exe
+     1>Сборка проекта "D:\AAA\Программы\Практика\Задача 13\Задача 13\Задача 13.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:00.22

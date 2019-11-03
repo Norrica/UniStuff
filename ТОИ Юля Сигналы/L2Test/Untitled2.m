@@ -1,0 +1,120 @@
+Fd=0.005;
+Ts=0.08;
+t=0:Fd:Ts;
+% t=0:Fd/2:Ts;
+% t=0:Fd/4:Ts;
+% t=0:Fd/8:Ts;
+% t=0:Fd/16:Ts;
+tt=0:0.00001:0.08;
+% plot(t,F(t));
+figure();
+plot(t,F(t),'b');
+hold on;
+ plot(tt,F(tt),'.');
+hold off;
+legend('Дискретный','Аналоговый');
+xlabel('Время');
+ylabel('Значение сигнала');
+grid();
+% subplot(1,2,1); plot(t,F(t),'b');
+% subplot(1,2,2); plot(tt,F(tt),'r');
+disp(F(t));
+%% Временная сетка Ts/200
+t2 = 0:Ts/200:0.08;
+y=F(t);
+%%
+z=interp1(t,F(t),t2, 'linear');
+x=lin(t,F(t));
+disp(F(t));
+disp(x);
+% plot(t,x,'-');hold on;
+% plot(t2,z,'-');hold on;
+% % plot(t,F(t),'*');
+%%
+% lag(t,F(t),t2);
+plot(t2,lag(t,F(t),t2));
+%%
+newt(t,F(t),t2);
+plot(t2,newt(t,F(t),t2));
+%%
+sspline(t,F(t),t2);
+%% Сравнение интерполяций
+figure();
+grid();
+subplot(4,1,1);
+plot(t,x-F(t));
+% plot(tt,F(tt),'-');hold on;
+% plot(t,x,'-');hold on;
+% plot(t2,z,'-');hold off;
+legend('Разность');
+xlabel('Время');
+ylabel('Значение разности');
+grid minor;
+subplot(4,1,2);plot(t,F(t),'*',t2,lag(t,y,t2));
+legend('Дискретный','Интерполированный');
+xlabel('Время');
+ylabel('Значение сигнала');
+grid minor;
+subplot(4,1,3);plot(t,F(t),'*',t2,newt(t,y,t2));
+legend('Дискретный','Интерполированный');
+xlabel('Время');
+ylabel('Значение сигнала');
+grid minor;
+subplot(4,1,4);plot(t,F(t),'*',t2,sspline(t,y,t2));
+legend('Дискретный','Интерполированный');
+xlabel('Время');
+ylabel('Значение сигнала');
+grid minor;
+%% АЦП
+g=0:Ts/1000:Ts;
+h=ADC(g,F(g),6);
+figure();
+plot(g,F(g));
+hold on;
+stairs(g,h);
+hold off;
+legend('Дискретный','Цифровой');
+grid minor;
+zoom on;
+disp(h);
+%% Шум и дисперсия
+noise = F(g) - h;
+S = std(noise);
+V = var(noise);
+disp(S);
+disp(V);
+figure();
+stairs(g,h);
+hold on;
+plot(g,noise);
+hold on;
+plot(g,F(g));
+hold off;
+zoom on;
+grid ;
+% axis([0 0.08 -8*10^-2 8*10^-2]);
+%%
+j=zeros(8,1001);
+k=zeros(8,1001);
+S=1:14;
+V=1:14;
+for i=1:14
+    j(i,:)=ADC(g,F(g),i);
+    k(i,:)=F(g)-j(i,:);
+    S(i) = std(k(i,:));
+    V(i) = var(k(i,:));
+end
+i=1:14;
+figure();
+plot(i,S,'*');
+hold on;
+plot(i,V,'.');
+hold off;
+zoom on;
+grid minor;
+legend('Отклонение','Дисперсия');
+xlabel('Уровни квантования');
+ylabel('Значения шума и дисперсии');
+axis([6 14 0 0.01]);
+% disp(S);
+% disp(V);

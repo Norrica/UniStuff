@@ -1,0 +1,14 @@
+﻿Сборка начата 27.04.2018 18:25:51.
+     1>Проект "D:\AAA\Программы\Системы счисления\Системы счисления\Системы счисления.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\AAA\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt "Системы.c"
+         Системы.c
+     1>d:\aaa\программы\системы счисления\системы счисления\системы.c(43): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+       Link:
+         D:\AAA\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AAA\Программы\Системы счисления\Debug\Системы счисления.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\AAA\Программы\Системы счисления\Debug\Системы счисления.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AAA\Программы\Системы счисления\Debug\Системы счисления.lib" /MACHINE:X86 "Debug\Системы.obj"
+         Системы счисления.vcxproj -> D:\AAA\Программы\Системы счисления\Debug\Системы счисления.exe
+     1>Сборка проекта "D:\AAA\Программы\Системы счисления\Системы счисления\Системы счисления.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.17

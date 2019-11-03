@@ -1,0 +1,16 @@
+﻿Сборка начата 07.07.2017 01:31:51.
+     1>Проект "D:\AAA\Программы\Практика\Задача 6\Задача 6\Задача 6.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\AAA\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt "Колпаков 6.c"
+         Колпаков 6.c
+     1>d:\aaa\программы\практика\задача 6\задача 6\колпаков 6.c(27): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\aaa\программы\практика\задача 6\задача 6\колпаков 6.c(38): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+     1>d:\aaa\программы\практика\задача 6\задача 6\колпаков 6.c(47): warning C4102: case1: неиспользованная метка
+       Link:
+         D:\AAA\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AAA\Программы\Практика\Задача 6\Debug\Задача 6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\AAA\Программы\Практика\Задача 6\Debug\Задача 6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AAA\Программы\Практика\Задача 6\Debug\Задача 6.lib" /MACHINE:X86 "Debug\Колпаков 6.obj"
+         Задача 6.vcxproj -> D:\AAA\Программы\Практика\Задача 6\Debug\Задача 6.exe
+     1>Сборка проекта "D:\AAA\Программы\Практика\Задача 6\Задача 6\Задача 6.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.47

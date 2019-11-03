@@ -1,0 +1,17 @@
+﻿Сборка начата 06.07.2017 21:38:40.
+     1>Проект "D:\AAA\Программы\Практика\Задача 9\Задача 9\Задача 9.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\AAA\VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt "Задача 9.c"
+         Задача 9.c
+     1>d:\aaa\программы\практика\задача 9\задача 9\задача 9.c(33): warning C4013: time: нет определения; предполагается "extern" с возвратом типа "int"
+     1>d:\aaa\программы\практика\задача 9\задача 9\задача 9.c(36): warning C4101: e: неиспользованная локальная переменная
+     1>d:\aaa\программы\практика\задача 9\задача 9\задача 9.c(36): warning C4101: f: неиспользованная локальная переменная
+     1>d:\aaa\программы\практика\задача 9\задача 9\задача 9.c(36): warning C4101: d: неиспользованная локальная переменная
+       Link:
+         D:\AAA\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AAA\Программы\Практика\Задача 9\Debug\Задача 9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\AAA\Программы\Практика\Задача 9\Debug\Задача 9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AAA\Программы\Практика\Задача 9\Debug\Задача 9.lib" /MACHINE:X86 "Debug\Задача 9.obj"
+         Задача 9.vcxproj -> D:\AAA\Программы\Практика\Задача 9\Debug\Задача 9.exe
+     1>Сборка проекта "D:\AAA\Программы\Практика\Задача 9\Задача 9\Задача 9.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.93
